@@ -1,0 +1,19 @@
+name: check
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: pip install numpy scipy matplotlib
+      - name: skill frontmatter and links
+        run: python tools/check_skill.py
+      - name: scaffold a project from the template and import the engine
+        run: |
+          python skills/cuelab/scripts/cuelab.py new /tmp/p --video examples/merkle-proof-scored/video.mp4 --timeline examples/merkle-proof-scored/timeline.json
+          python -c "import sys; sys.path.insert(0,'skills/cuelab/engine'); import dsp, synth, cuelib, music_kit, mix, audit, quality, report"
+      - name: example builds and every sync check passes
+        run: python skills/cuelab/scripts/cuelab.py all examples/merkle-proof-scored
