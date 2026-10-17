@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+**/out/*.wav
+**/out/stems/
+**/out/series.pkl
+node_modules/

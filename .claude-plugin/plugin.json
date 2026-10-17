@@ -1,0 +1,10 @@
+{
+  "name": "cuelab",
+  "version": "0.1.0",
+  "description": "Frame-synchronized sound for video: cue sheet from the picture's own timing, procedural score and effects, mix and master, and a sync audit that measures the video.",
+  "author": { "name": "endlessconflict", "url": "https://github.com/endlessconflict" },
+  "homepage": "https://github.com/endlessconflict/cuelab",
+  "repository": "https://github.com/endlessconflict/cuelab",
+  "license": "MIT",
+  "keywords": ["video", "sound-design", "audio", "sync", "loudness", "remotion", "skill"]
+}

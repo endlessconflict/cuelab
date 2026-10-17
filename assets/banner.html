@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<style>
+  @font-face { font-family: "Display"; src: url("../../sourceframe/skills/sourceframe/templates/starter/public/fonts/display.woff2") format("woff2"); font-weight: 400 900; }
+  @font-face { font-family: "Mono"; src: url("../../sourceframe/skills/sourceframe/templates/starter/public/fonts/mono.woff2") format("woff2"); font-weight: 100 800; }
+  html, body { margin: 0; background: #0a0c10; }
+  .b { position: relative; width: 1280px; height: 640px; overflow: hidden; background: #0a0c10; font-family: "Display", sans-serif; color: #eef2f7; }
+  .grid { position: absolute; inset: 0; background-image: linear-gradient(90deg, #1a1f2a 2px, transparent 2px); background-size: 40px 100%; opacity: .7; }
+  .mark { position: absolute; left: 72px; top: 72px; width: 120px; height: 120px; }
+  h1 { position: absolute; left: 72px; top: 226px; margin: 0; font-size: 94px; font-weight: 800; letter-spacing: -0.04em; line-height: 1; }
+  h1 span { color: #7cc4ff; }
+  .tag { position: absolute; left: 76px; top: 352px; font-family: "Mono"; font-size: 26px; color: #c3cbd8; line-height: 1.55; width: 600px; }
+  .tag b { color: #ff7a45; font-weight: 600; }
+  .chips { position: absolute; left: 76px; top: 520px; display: flex; gap: 12px; font-family: "Mono"; font-size: 20px; color: #8b97a8; }
+  .chips i { font-style: normal; border: 2px solid #252b38; padding: 8px 14px; background: #11141b; }
+  .fig { position: absolute; left: 700px; top: 64px; width: 520px; border: 2px solid #252b38; box-shadow: 0 30px 60px rgba(0,0,0,.6); }
+  .cap { position: absolute; left: 700px; top: 440px; font-family: "Mono"; font-size: 18px; color: #8b97a8; width: 520px; }
+</style>
+</head>
+<body>
+<div class="b">
+  <div class="grid"></div>
+  <img class="mark" src="logo.svg" />
+  <h1>cue<span>lab</span></h1>
+  <div class="tag">Sound for video as a<br />function of its timeline.<br />Cue sheet, <b>sync audit</b>, mix.</div>
+  <div class="chips"><i>procedural</i><i>frame-audited</i><i>measured</i></div>
+  <img class="fig" src="mix_crop.png" />
+  <div class="cap">mix_analysis.png from the example</div>
+</div>
+</body>
+</html>

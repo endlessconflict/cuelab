@@ -1,0 +1,23 @@
+{
+  "video": "../video.mp4",
+  "timeline": "../timeline.json",
+  "out": "out",
+  "target_lufs": -15.0,
+  "ceiling_db": -1.5,
+  "music_trim": 8.0,
+  "sfx_trim": -6.0,
+  "duck_db": 6.5,
+  "hp_hz": 36,
+  "arc": [[0, 0], [60, -2], [200, 0]],
+  "outro": [[0, 0], [270, 0], [320, -60]],
+  "colors": {
+    "focus": [255, 122, 69],
+    "data": [124, 196, 255],
+    "ok": [94, 234, 212],
+    "bad": [255, 77, 109],
+    "white": [238, 242, 247]
+  },
+  "color_tol": 55,
+  "latency_cue_types": ["key", "bit", "ui"],
+  "grid_frames": 5
+}

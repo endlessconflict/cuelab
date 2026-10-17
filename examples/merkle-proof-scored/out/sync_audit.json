@@ -1,0 +1,317 @@
+[
+ {
+  "name": "hook: field wave starts (first change)",
+  "visual": 21.0,
+  "cue": 16.0,
+  "offset_f": -5.0,
+  "ms": -166.66666666666666,
+  "ok": true,
+  "note": "sweep"
+ },
+ {
+  "name": "hook: pillar appears (first change)",
+  "visual": 55.0,
+  "cue": 56.0,
+  "offset_f": 1.0,
+  "ms": 33.333333333333336,
+  "ok": true,
+  "note": "rise"
+ },
+ {
+  "name": "hook: numeral 20 appears (first change)",
+  "visual": 89.0,
+  "cue": 90.0,
+  "offset_f": 1.0,
+  "ms": 33.333333333333336,
+  "ok": true,
+  "note": "impact"
+ },
+ {
+  "name": "leaves: row 0 hash locks",
+  "visual": 150.0,
+  "cue": 150.0,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "glass_tick"
+ },
+ {
+  "name": "leaves: row 1 hash locks",
+  "visual": 157.0,
+  "cue": 157.0,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "glass_tick"
+ },
+ {
+  "name": "leaves: row 2 hash locks",
+  "visual": 164.0,
+  "cue": 164.0,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "glass_tick"
+ },
+ {
+  "name": "leaves: row 3 hash locks",
+  "visual": 171.0,
+  "cue": 171.0,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "glass_tick"
+ },
+ {
+  "name": "leaves: row 4 hash locks",
+  "visual": 178.0,
+  "cue": 178.0,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "glass_tick"
+ },
+ {
+  "name": "leaves: row 5 hash locks",
+  "visual": 185.0,
+  "cue": 185.0,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "glass_tick"
+ },
+ {
+  "name": "leaves: row 6 hash locks",
+  "visual": 192.0,
+  "cue": 192.0,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "glass_tick"
+ },
+ {
+  "name": "leaves: row 7 hash locks",
+  "visual": 199.0,
+  "cue": 199.0,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "glass_tick"
+ },
+ {
+  "name": "tree: tree_L1 nodes lock (focus colour leaves)",
+  "visual": null,
+  "cue": null,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "n=4 range [+0.00, +0.00] f 4 edges seen, 4 expected"
+ },
+ {
+  "name": "tree: tree_L2 nodes lock (focus colour leaves)",
+  "visual": null,
+  "cue": null,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "n=2 range [+0.00, +0.00] f 2 edges seen, 2 expected"
+ },
+ {
+  "name": "tree: tree_root nodes lock (focus colour leaves)",
+  "visual": null,
+  "cue": null,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "n=1 range [+0.00, +0.00] f 1 edges seen, 1 expected"
+ },
+ {
+  "name": "proof: leaf 5 lights up",
+  "visual": 465.0,
+  "cue": 465.0,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "ping"
+ },
+ {
+  "name": "proof: verifier row 1 becomes active",
+  "visual": 542.0,
+  "cue": 542.0,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "ping"
+ },
+ {
+  "name": "proof: verifier row 1 settles (value fixed)",
+  "visual": 564.0,
+  "cue": 564.0,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "glass_tick"
+ },
+ {
+  "name": "proof: verifier row 2 becomes active",
+  "visual": 580.0,
+  "cue": 580.0,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "ping"
+ },
+ {
+  "name": "proof: verifier row 2 settles (value fixed)",
+  "visual": 602.0,
+  "cue": 602.0,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "glass_tick"
+ },
+ {
+  "name": "proof: verifier row 3 becomes active",
+  "visual": 618.0,
+  "cue": 618.0,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "ping"
+ },
+ {
+  "name": "proof: verifier row 3 settles (value fixed)",
+  "visual": 640.0,
+  "cue": 640.0,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "glass_tick"
+ },
+ {
+  "name": "proof: root turns ok (match)",
+  "visual": 657.0,
+  "cue": 657.0,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "chord"
+ },
+ {
+  "name": "tamper: the character turns bad",
+  "visual": 702.0,
+  "cue": 702.0,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "reject"
+ },
+ {
+  "name": "tamper: tam_leaf turns bad",
+  "visual": 716.0,
+  "cue": 716.0,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "glass_tick"
+ },
+ {
+  "name": "tamper: tam_L1 turns bad",
+  "visual": 746.0,
+  "cue": 746.0,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "glass_tick"
+ },
+ {
+  "name": "tamper: tam_L2 turns bad",
+  "visual": 772.0,
+  "cue": 772.0,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "glass_tick"
+ },
+ {
+  "name": "tamper: tam_root turns bad",
+  "visual": 798.0,
+  "cue": 798.0,
+  "offset_f": 0.0,
+  "ms": 0.0,
+  "ok": true,
+  "note": "glass_tick"
+ },
+ {
+  "name": "tamper: X mark is drawn",
+  "visual": 819.0,
+  "cue": 818.0,
+  "offset_f": -1.0,
+  "ms": -33.333333333333336,
+  "ok": true,
+  "note": "impact"
+ },
+ {
+  "name": "scale: bar 0 starts growing",
+  "visual": 856.0,
+  "cue": 854.0,
+  "offset_f": -2.0,
+  "ms": -66.66666666666667,
+  "ok": true,
+  "note": "glide"
+ },
+ {
+  "name": "scale: bar 1 starts growing",
+  "visual": 865.0,
+  "cue": 864.0,
+  "offset_f": -1.0,
+  "ms": -33.333333333333336,
+  "ok": true,
+  "note": "glide"
+ },
+ {
+  "name": "scale: bar 2 starts growing",
+  "visual": 875.0,
+  "cue": 874.0,
+  "offset_f": -1.0,
+  "ms": -33.333333333333336,
+  "ok": true,
+  "note": "glide"
+ },
+ {
+  "name": "scale: bar 3 starts growing",
+  "visual": 885.0,
+  "cue": 884.0,
+  "offset_f": -1.0,
+  "ms": -33.333333333333336,
+  "ok": true,
+  "note": "glide"
+ },
+ {
+  "name": "outro: first code line",
+  "visual": 964.0,
+  "cue": 965.0,
+  "offset_f": 1.0,
+  "ms": 33.333333333333336,
+  "ok": true,
+  "note": "ui"
+ },
+ {
+  "name": "wipes: whoosh peak vs visual peak (6 cuts)",
+  "visual": null,
+  "cue": null,
+  "offset_f": 0.3333333333333333,
+  "ms": 11.111111111111109,
+  "ok": true,
+  "note": "n=6 range [+0.00, +1.00] f "
+ },
+ {
+  "name": "captions: tick vs first visible rise (first lines)",
+  "visual": null,
+  "cue": null,
+  "offset_f": 1.4615384615384615,
+  "ms": 48.717948717948715,
+  "ok": true,
+  "note": "n=13 range [-1.00, +3.00] f "
+ }
+]

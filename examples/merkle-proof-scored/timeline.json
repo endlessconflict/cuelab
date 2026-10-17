@@ -1,0 +1,56 @@
+{
+  "fps": 30,
+  "overlap": 10,
+  "width": 1080,
+  "height": 1350,
+  "scenes": [
+    {
+      "name": "hook",
+      "frames": 120
+    },
+    {
+      "name": "leaves",
+      "frames": 150
+    },
+    {
+      "name": "tree",
+      "frames": 210
+    },
+    {
+      "name": "proof",
+      "frames": 240
+    },
+    {
+      "name": "tamper",
+      "frames": 180
+    },
+    {
+      "name": "scale",
+      "frames": 120
+    },
+    {
+      "name": "outro",
+      "frames": 120
+    }
+  ],
+  "ease": {
+    "out": [
+      0.22,
+      1,
+      0.36,
+      1
+    ],
+    "inOut": [
+      0.76,
+      0,
+      0.24,
+      1
+    ],
+    "soft": [
+      0.33,
+      1,
+      0.68,
+      1
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "cuelab",
+  "description": "Skills for engineering-grade explainer videos.",
+  "owner": { "name": "endlessconflict" },
+  "plugins": [
+    {
+      "name": "cuelab",
+      "source": "./",
+      "description": "Sound for a finished video as a function of its timeline: cue sheet, procedural synthesis, mix, and a measured sync audit.",
+      "version": "0.1.0"
+    }
+  ]
+}

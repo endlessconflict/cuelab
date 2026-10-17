@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="cuelab logo">
+  <title>cuelab</title>
+  <rect width="512" height="512" rx="96" fill="#0a0c10"/>
+  <g stroke="#252b38" stroke-width="3">
+    <path d="M96 120V392M160 120V392M224 120V392M288 120V392M352 120V392M416 120V392"/>
+  </g>
+  <g stroke="#7cc4ff" stroke-width="14" stroke-linecap="round">
+    <path d="M96 236V276M160 212V300M224 176V336M288 150V362M352 196V316M416 238V274"/>
+  </g>
+  <path d="M288 96V416" stroke="#ff7a45" stroke-width="8" stroke-linecap="square"/>
+  <path d="M268 96H308L288 128Z" fill="#ff7a45"/>
+  <circle cx="288" cy="256" r="16" fill="#0a0c10" stroke="#ff7a45" stroke-width="8"/>
+</svg>

@@ -1,0 +1,27 @@
+{
+ "lag_samples": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "lag_ok": true,
+ "ffmpeg_lufs": "I:         -15.1 LUFS",
+ "ffmpeg_peak": "Peak:       -1.6 dBFS",
+ "streams": [
+  {
+   "codec_name": "h264",
+   "codec_type": "video",
+   "start_time": "0.000000",
+   "side_data_list": [
+    {}
+   ]
+  },
+  {
+   "codec_name": "aac",
+   "codec_type": "audio",
+   "start_time": "0.000000"
+  }
+ ],
+ "duration": "36.000000"
+}
